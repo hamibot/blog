@@ -49,8 +49,8 @@ log(ocr.recognize(img));
 ```cpp
 function Gets_Words(){
     let list = ocr.recognize(arguments[0])['results'];       // 识别文字，并得到results
- 	let eps = 40;                                           // 坐标误差
-  	if(arguments.length >= 2) eps = arguments[1];
+ 	  let eps = 40;                                           // 坐标误差
+  	 if(arguments.length >= 2) eps = arguments[1];
     for(var i = 0; i < list.length; i++)                        // 选择排序对上下排序,复杂度O(N²)但一般list的长度较短只需几十次运算
     {
         for(var j = i+1; j < list.length; j++)
