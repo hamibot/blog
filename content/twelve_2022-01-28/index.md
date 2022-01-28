@@ -15,7 +15,7 @@
 
 ## 使用中的问题
 在使用recognizeText识别文字时,常常会出现文字顺序错乱的情况
-例如:![请添加图片描述](https://img-blog.csdnimg.cn/3e38f402a632479eb696e516b6f9cb4d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5Y2B5LqM6LSw,size_20,color_FFFFFF,t_70,g_se,x_16)
+例如:![请添加图片描述](t.png)
 使用代码:
 
 ```cpp
