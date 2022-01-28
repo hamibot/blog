@@ -88,4 +88,5 @@ log(Gets_Words(img));
 log(Gets_Words(img, 50));
 
 ```
-
+**最终效果:**
+![在这里插入图片描述](2.png)
