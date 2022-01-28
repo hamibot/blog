@@ -22,23 +22,23 @@ while (!click('b'));
 while (!click('c'));
 ```
 
-飞速的在控件a、b和c跳转时，确实让人感觉到“快感”，
+飞速的在控件 a、b 和 c 跳转时，确实让人感觉到“快感”，
 
 在快节奏的时代下，人们总是喜欢快的，但对于一个**合格**的脚本来说，这明显不是一个好的命题
 
-如果你不想让软件检测出你用**非常人**的速度而判定你是脚本的话，那你就一定要利用好sleep函数和random函数
+如果你不想让软件检测出你用**非常人**的速度而判定你是脚本的话，那你就一定要利用好 sleep 函数和 random 函数
 
 # What
 
 首先我们需要了解两个函数：
 
-## sleep函数
+## sleep 函数
 
 [官网](https://docs.hamibot.com/reference/globals/#sleepn)介绍如下：
 
 ![](289ed24836d293a0.png)
 
-## random函数
+## random 函数
 
 [官网](https://docs.hamibot.com/reference/globals#randommin-max)介绍如下：
 
@@ -46,8 +46,8 @@ while (!click('c'));
 
 # How
 
-了解了sleep和random函数后，就可以让我们的脚本更像人了
-如果是一个正常人，我们会在控件a与b之间跳转时会有**迟钝**，而且这个迟钝是一个**随机**的，这里假设我们的迟钝时间是在500ms~1000ms之间，那么我们可以修改代码为
+了解了 sleep 和 random 函数后，就可以让我们的脚本更像人了
+如果是一个正常人，我们会在控件 a 与 b 之间跳转时会有**迟钝**，而且这个迟钝是一个**随机**的，这里假设我们的迟钝时间是在 500ms~1000ms 之间，那么我们可以修改代码为
 
 ```js
 while (!click('a'));
@@ -59,11 +59,11 @@ while (!click('c'));
 
 这样就可以让我们的脚本更像人
 
-# How进阶
+# How 进阶
 
 我们既然可以在**时间**上“做手脚”，那么当然也可以对**空间**上“做手脚”
 
-对于无法点击的控件的点击（如果不了解的可以看看我的[另一篇博客]()），按传统的方法只是点击控件的中点坐标（中点 x 坐标、中点 y 坐标）
+对于无法点击的控件的点击（如果不了解的可以看看我的[另一篇博客](/ru-he-dian-ji-wu-fa-dian-ji-de-kong-jian/)），按传统的方法只是点击控件的中点坐标（中点 x 坐标、中点 y 坐标）
 
 ```js
 # 例子
@@ -75,7 +75,7 @@ click(tmp.bounds().centerX(), tmp.bounds().centerY());
 
 对于一个正常人点击一个控件肯定不是一直点在一个控件的中心点，因此我们也要让脚本随机点在某个位置上
 
-在[官网](https://docs.hamibot.com/reference/widgetsBasedAutomation#rect)上还可以找到bounds()的其他属性
+在[官网](https://docs.hamibot.com/reference/widgetsBasedAutomation#rect)上还可以找到 bounds()的其他属性
 
 **left** 长方形左边界的 x 坐标
 
@@ -97,5 +97,5 @@ click(randomX, randomY);
 
 # 广告
 
-由于某些原因，QG脚本已经在市场下架，但...开源万岁！，我们还是可以通过源码在自己的脚本控制台上运行，具体操作请访问[链接](https://github.com/dundunnp/hamibot-auto_xuexiqiangguo)
+由于某些原因，QG 脚本已经在市场下架，但...开源万岁！，我们还是可以通过源码在自己的脚本控制台上运行，具体操作请访问[链接](https://github.com/dundunnp/hamibot-auto_xuexiqiangguo)
 https://github.com/dundunnp/hamibot-auto_xuexiqiangguo
