@@ -24,7 +24,7 @@ let img = images.read('/sdcard/t.png');
 log(ocr.recognizeText(img));
 ```
 识别结果如下: 有很明显的顺序错乱
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d37edcd1523642c6884f30a0e1e39ad5.png)
+![在这里插入图片描述](0.png)
 
 ## 解决方法
 好在开发文档中提供了 `ocr.recognize(img[,level])`,得到的识别结果是分段的,而且每段都具有相应的坐标
@@ -36,7 +36,7 @@ let img = images.read('/sdcard/t.png');
 log(ocr.recognize(img));
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/bd13ddf4ac804383a5bd5a9cf97594f0.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5Y2B5LqM6LSw,size_14,color_FFFFFF,t_70,g_se,x_16)
+![在这里插入图片描述](1.png)
 
 那么就能通过对每段的坐标进行比较排序,最终将段落文本相加得到一个顺序相对正确的文本.
 
