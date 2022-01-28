@@ -2,7 +2,7 @@
 
 [extra] author = "十二" cover= "cover.png"
 
-[taxonomies] tags = ["技术杂谈"] +++
+[taxonomies] tags = ["技术杂谈", "OCR"] +++
  
 
 ---
