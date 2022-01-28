@@ -1,5 +1,9 @@
++++ title = "Hamibot自带OCR的一些改进" date = 2022-01-28 slug = "Hamibot自带OCR的一些改进"
 
- Hamibot自带OCR的一些改进
+[extra] author = "十二" cover= "cover.png"
+
+[taxonomies] tags = ["技术杂谈"] +++
+ 
 
 ---
 
