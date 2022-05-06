@@ -1,6 +1,6 @@
 +++
 title = "Hamibot 更新日志"
-date = 2022-04-08
+date = 2022-05-06
 slug = "changelog"
 
 [extra]
@@ -8,6 +8,15 @@ slug = "changelog"
 [taxonomies]
 tags = ["HAMI 更新"]
 +++
+
+# 20220505
+
+## 新增
+
+- 项目功能，可付费寻找开发者，定制脚本 [前往查看](https://hamibot.com/projects)
+- 议题标记是否有新回复
+- 支持切换站点（国际站全功能，部分地区访问较慢；国内站速度快，功能较少）
+- 开发者保证金计划，加入可获得额外权限 [前往查看](https://hamibot.com/account/developer)
 
 # 20220408
 
