@@ -1,6 +1,6 @@
 +++
 title = "Hamibot 更新日志"
-date = 2022-05-06
+date = 2022-05-10
 slug = "changelog"
 
 [extra]
@@ -8,6 +8,24 @@ slug = "changelog"
 [taxonomies]
 tags = ["HAMI 更新"]
 +++
+
+# 20220510
+
+## 新增
+
+- 脚本搜索使用新引擎
+- 脚本搜索可载入更多结果
+- 项目支持私聊需求方
+- REST API 示例代码 [前往查看](https://docs.hamibot.com/rest/reference)
+- 付费议题（用户创建的脚本议题，需支付费用）
+
+## 变动
+
+- 取消 GitHub 登录时更新资料
+
+## 修正
+
+- 修正 REST API 消息推送报错机器人版本过低
 
 # 20220505
 
