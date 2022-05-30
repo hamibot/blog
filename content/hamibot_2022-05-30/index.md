@@ -1,6 +1,6 @@
 +++
 title = "Hamibot 更新日志"
-date = 2022-05-10
+date = 2022-05-30
 slug = "changelog"
 
 [extra]
@@ -8,6 +8,16 @@ slug = "changelog"
 [taxonomies]
 tags = ["HAMI 更新"]
 +++
+
+# 20220530
+
+## 新增
+
+- 项目主可私聊开发者
+- 脚本用户可直接查看私有脚本
+- 开发者可设定脚本的运行机器人数量
+- 开发者可创建优惠码
+- REST API 支持删除脚本 [前往查看](https://docs.hamibot.com/rest/reference)
 
 # 20220510
 
