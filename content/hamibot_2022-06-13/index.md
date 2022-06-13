@@ -1,6 +1,6 @@
 +++
 title = "Hamibot 更新日志"
-date = 2022-05-30
+date = 2022-06-13
 slug = "changelog"
 
 [extra]
@@ -8,6 +8,17 @@ slug = "changelog"
 [taxonomies]
 tags = ["HAMI 更新"]
 +++
+
+# 20220613
+
+## 新增
+
+- 支持分享私有脚本
+- 重新生成脚本邀请码
+
+## 变动
+
+- 支持年付订阅
 
 # 20220530
 
