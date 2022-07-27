@@ -13,11 +13,12 @@ tags = ["HAMI 更新"]
 
 ## 新增
 
-- 一键导入 GitHub 脚本
+- 一键导入 GitHub 脚本 [前往查看](https://hamibot.com/dashboard/scripts/import)
 - 通知定时任务失败原因
 - 生成优惠码支持设定使用的订阅周期
 - 保护源码功能 [前往查看](https://hamibot.com/dashboard/scripts/console)
 
+演示：
 [![导入脚本到 Hamibot](https://hamibot.com/badge_import.png)](https://hamibot.com/dashboard/scripts/import?url=https%3A%2F%2Fgithub.com%2Fhamibot%2Fscript)
 
 ## 修正
